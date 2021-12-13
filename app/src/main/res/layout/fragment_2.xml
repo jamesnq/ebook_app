@@ -3,26 +3,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/fr2"
     tools:context=".Fragment2">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:id="@+id/tv_insert"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
 
-    <Button
-        android:id="@+id/buttonNext"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|right"
-        android:text="next" />
-    <Button
-        android:id="@+id/buttonPrevious"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|left"
-        android:text="previous"/>
+    <TextView
+        android:id="@+id/tv_name_data"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:text="ten sach"
+
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/tv_id_data"
+        android:layout_width="match_parent"
+        android:layout_height="222dp"
+        android:layout_marginTop="40dp"
+        android:text="TextView" />
 
 </FrameLayout>

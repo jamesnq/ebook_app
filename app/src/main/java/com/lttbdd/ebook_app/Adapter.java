@@ -1,6 +1,7 @@
 package com.lttbdd.ebook_app;
 
 import android.app.Activity;
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -8,49 +9,56 @@ import android.widget.BaseAdapter;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+import java.util.List;
 
 
 public class Adapter extends BaseAdapter {
-    ArrayList<Item> item;
-    private Activity activity;
+    private Context context;
+    private int layout;
+    private List<Book> arrayList;
 
-    public Adapter(Activity activity, ArrayList<Item> item) {
-        this.activity = activity;
-        this.item = item;
+    public Adapter(Context context, int layout, List<Book> arrayList) {
+        this.context = context;
+        this.layout = layout;
+        this.arrayList = arrayList;
     }
 
     @Override
     public int getCount() {
-        return item.size();
+        return arrayList.size();
     }
 
     @Override
-    public Object getItem(int i) {
-        return item.get(i);
+    public Object getItem(int position) {
+        return null;
     }
 
     @Override
-    public long getItemId(int i) {
-        return i;
+    public long getItemId(int position) {
+        return 0;
     }
 
+    private class ViewHolder{
+        TextView tv_name;
+        TextView tv_id;
+    }
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
-        // Gọi layoutInflater ra để bắt đầu ánh xạ view và data.
-        LayoutInflater inflater = activity.getLayoutInflater();
-
-        // Đổ dữ liệu vào biến View, view này chính là những gì nằm trong item_name.xml
-        view = inflater.inflate(R.layout.item_name, null);
-
-        // Đặt chữ cho từng view trong danh sách.
-        Item item1=(Item) getItem(i);
-        TextView tvName = (TextView) view.findViewById(R.id.tv_name);
-        tvName.setText(item1.name);
-        TextView tvName1=(TextView) view.findViewById(R.id.tv_name1);
-        tvName1.setText(item1.name1);
-        //onCLick
-
-        // Trả về view kết quả.
+        ViewHolder holder;
+        if (view==null){
+            holder=new ViewHolder();
+            LayoutInflater inflater= (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            view=inflater.inflate(layout,null);
+            holder.tv_id=(TextView) view.findViewById(R.id.tv_id);
+            holder.tv_name=(TextView) view.findViewById(R.id.tv_name);
+            view.setTag(holder);
+        }else
+        {
+            holder= (ViewHolder) view.getTag();
+        }
+        Book book=arrayList.get(i);
+         holder.tv_id.setText(book.getId());
+         holder.tv_name.setText((book.getName()));
         return view;
     }
 }

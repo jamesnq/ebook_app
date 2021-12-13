@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical"
     >
-    <TextView
-        android:id="@+id/tv"
-        android:text="Fragment1"
-        android:layout_width="match_parent"
-        android:layout_height="20dp"/>
 
-    <fragment
-        android:id="@+id/frament1"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:name="com.lttbdd.ebook_app.Fragment1"/>
-</LinearLayout>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView2"
+        android:name="com.lttbdd.ebook_app.Fragment1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</FrameLayout>
