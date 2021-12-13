@@ -1,6 +1,5 @@
 package com.lttbdd.ebook_app;
 
-import android.app.Activity;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,7 +7,6 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import java.util.ArrayList;
 import java.util.List;
 
 
@@ -38,27 +36,27 @@ public class Adapter extends BaseAdapter {
         return 0;
     }
 
-    private class ViewHolder{
+    private class ViewHolder {
         TextView tv_name;
         TextView tv_id;
     }
+
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
         ViewHolder holder;
-        if (view==null){
-            holder=new ViewHolder();
-            LayoutInflater inflater= (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            view=inflater.inflate(layout,null);
-            holder.tv_id=(TextView) view.findViewById(R.id.tv_id);
-            holder.tv_name=(TextView) view.findViewById(R.id.tv_name);
+        if (view == null) {
+            holder = new ViewHolder();
+            LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            view = inflater.inflate(layout, null);
+            holder.tv_id = (TextView) view.findViewById(R.id.tv_id);
+            holder.tv_name = (TextView) view.findViewById(R.id.tv_name);
             view.setTag(holder);
-        }else
-        {
-            holder= (ViewHolder) view.getTag();
+        } else {
+            holder = (ViewHolder) view.getTag();
         }
-        Book book=arrayList.get(i);
-         holder.tv_id.setText(book.getId());
-         holder.tv_name.setText((book.getName()));
+        Book book = arrayList.get(i);
+        holder.tv_id.setText(book.getId());
+        holder.tv_name.setText((book.getName()));
         return view;
     }
 }

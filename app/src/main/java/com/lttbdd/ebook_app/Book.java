@@ -5,9 +5,10 @@ import java.io.Serializable;
 public class Book implements Serializable {
     private String name;
     private String id;
-    public Book(String name,String id){
-        this.name=name;
-        this.id=id;
+
+    public Book(String name, String id) {
+        this.name = name;
+        this.id = id;
     }
 
     public String getName() {
