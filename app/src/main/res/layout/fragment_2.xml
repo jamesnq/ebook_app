@@ -11,15 +11,14 @@
         android:id="@+id/tv_name_data"
         android:layout_width="match_parent"
         android:layout_height="43dp"
-        android:text="ten sach"
-
-        android:layout_marginTop="5dp"/>
+        android:layout_marginTop="5dp"
+        android:text="ten sach" />
 
     <TextView
         android:id="@+id/tv_id_data"
         android:layout_width="match_parent"
         android:layout_height="222dp"
         android:layout_marginTop="40dp"
-        android:text="TextView" />
+        android:text="Noi dung" />
 
 </FrameLayout>

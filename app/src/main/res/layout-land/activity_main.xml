@@ -7,7 +7,7 @@
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragment1"
         android:name="com.lttbdd.ebook_app.Fragment1"
-        android:layout_width="365dp"
+        android:layout_width="130dp"
         android:layout_height="match_parent"
         android:layout_weight="2" />
 
