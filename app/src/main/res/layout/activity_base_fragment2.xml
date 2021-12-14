@@ -4,14 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BaseFragment2"
-    android:id="@+id/TODO">
+    tools:context=".BaseFragment2">
 
-    <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragmentchitiet"
-        android:name="com.lttbdd.ebook_app.Fragment2"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="74dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
