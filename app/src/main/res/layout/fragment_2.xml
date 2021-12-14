@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragment2">
-
-    <!-- TODO: Update blank fragment layout -->
+    tools:context=".Fragment2"
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/tv_name_data"
         android:layout_width="match_parent"
-        android:layout_height="43dp"
-        android:layout_marginTop="5dp"
-        android:text="ten sach" />
+        android:layout_height="wrap_content"
+        android:text="Ten sach" />
 
     <TextView
         android:id="@+id/tv_id_data"
         android:layout_width="match_parent"
-        android:layout_height="222dp"
-        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
         android:text="Noi dung" />
 
-</FrameLayout>
+</LinearLayout>

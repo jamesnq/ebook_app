@@ -13,9 +13,9 @@ public class BaseFragment2 extends AppCompatActivity {
         setContentView(R.layout.activity_base_fragment2);
         Intent intent = getIntent();
         Book b1 = (Book) intent.getSerializableExtra("thong tin sach");
-
         Fragment2 fr2 = (Fragment2) getSupportFragmentManager().findFragmentById(R.id.fragmentchitiet);
-
+        //loi
         fr2.SetData(b1);
+
     }
 }

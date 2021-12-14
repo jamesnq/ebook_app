@@ -24,6 +24,7 @@ public class Fragment2 extends Fragment {
     }
 
     public void SetData(Book b) {
+        //loi
         tv_name_data.setText(b.getName());
         tv_id_data.setText(b.getId());
     }
