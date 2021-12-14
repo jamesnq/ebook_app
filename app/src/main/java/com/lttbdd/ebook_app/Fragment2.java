@@ -16,8 +16,8 @@ import android.widget.TextView;
  * create an instance of this fragment.
  */
 public class Fragment2 extends Fragment {
-    TextView tv_id_data;
-    TextView tv_name_data;
+    TextView tv_id;
+    TextView tv_name;
     View view;
 
     @Override
@@ -25,13 +25,16 @@ public class Fragment2 extends Fragment {
                              Bundle savedInstanceState) {
         view=inflater.inflate(R.layout.fragment_2,container,false);
         // Inflate the layout for this fragment
-        tv_name_data=(TextView) view.findViewById(R.id.tv_name_data);
-        tv_id_data=(TextView) view.findViewById(R.id.tv_id_data);
-
+        anhxa();
         return view;
     }
     public void SetData(Book b){
-        tv_name_data.setText(b.getName());
-        tv_id_data.setText(b.getId());
+        tv_name.setText(b.getName());
+        tv_id.setText(b.getId());
     }
+    private void anhxa(){
+        tv_name=(TextView) view.findViewById(R.id.tv_name_data);
+        tv_id=(TextView) view.findViewById(R.id.tv_id_data);
+    }
+
 }

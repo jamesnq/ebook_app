@@ -28,11 +28,11 @@ public class MainActivity extends AppCompatActivity implements ConvertName{
 
     @Override
     public void DataBook(Book b) {
-       Fragment2 fragment3= (Fragment2) getSupportFragmentManager().findFragmentById(R.id.fragment2);
+       Fragment2 fragment2= (Fragment2) getSupportFragmentManager().findFragmentById(R.id.fragment2);
 
         Configuration configuration=getResources().getConfiguration();
-        if(fragment3!=null&&configuration.orientation==Configuration.ORIENTATION_LANDSCAPE){
-            fragment3.SetData(b);
+        if(fragment2!=null&&configuration.orientation==Configuration.ORIENTATION_LANDSCAPE){
+            fragment2.SetData(b);
         }
         else{
             Intent intent=new Intent(MainActivity.this,BaseFragment2.class);
