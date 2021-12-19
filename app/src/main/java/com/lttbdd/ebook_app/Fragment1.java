@@ -37,7 +37,6 @@ public class Fragment1 extends Fragment implements AdapterView.OnItemClickListen
     }
 
 
-
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         communicator.respond(position);

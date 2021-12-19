@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity implements Fragment1.Communi
     Fragment1 fragment1;
     Fragment2 fragment2;
     FragmentManager fragmentManager;
-    boolean isLayoutInLandscape;
+    boolean isLandscape;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,24 +22,24 @@ public class MainActivity extends AppCompatActivity implements Fragment1.Communi
 
         fragment1 = (Fragment1) fragmentManager.findFragmentById(R.id.fragment1);
         fragment2 = (Fragment2) fragmentManager.findFragmentById(R.id.fragment2);
-
+        if (fragment1 == null) {
+            fragment1 = new Fragment1();
+            fragmentManager.beginTransaction()
+                    .add(R.id.fragmentContainerView2, fragment1)
+                    .commit();
+        }
         fragment1.setCommunicator(this);
 
-        isLayoutInLandscape = fragment2 != null;
+        isLandscape = fragment2 != null;
 
-        Toast.makeText(this, "Layout is in landscape = " + isLayoutInLandscape, Toast.LENGTH_SHORT).show();
     }
 
 
     @Override
     public void respond(int clickedItemIndex) {
-        if (isLayoutInLandscape) {
+        if (isLandscape) {
             if (fragment2.isVisible()) {
                 fragment2.setContent(clickedItemIndex);
-            }
-            else
-            {
-                Toast.makeText(this, "Fragment is not visible", Toast.LENGTH_SHORT).show();
             }
         } else {
             Intent detailActivityIntent = new Intent(this, BaseFragment2Activity.class);
@@ -48,3 +48,4 @@ public class MainActivity extends AppCompatActivity implements Fragment1.Communi
         }
     }
 }
+
