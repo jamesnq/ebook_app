@@ -1,7 +1,29 @@
 <resources>
     <string name="app_name">Ebook_App</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="dasdasfq">dasdasfq</string>
-    <string name="dasdsad">dasdsad</string>
+    <string name="buttonName">buttonName</string>
+
+    <string-array name="title">
+        <item>Title 1</item>
+        <item>Title 2</item>
+        <item>Title 3</item>
+        <item>Title 4</item>
+        <item>Title 5</item>
+        <item>Title 6</item>
+        <item>Title 7</item>
+        <item>Title 8</item>
+        <item>Title 9</item>
+    </string-array>
+
+    <string-array name="content">
+        <item>Vestibulum ullamcorper metus turpis, ultricies scelerisque risus mattis quis. Praesent maximus pulvinar metus eget fringilla. Integer accumsan scelerisque purus. Vivamus eu elementum orci, eget tempor magna. In vel pharetra ipsum. Aenean sit amet ipsum eu nulla pharetra dapibus. Vivamus nunc quam, aliquam sed ipsum in, ultricies iaculis elit. Vestibulum ornare mattis lectus at ultricies. Cras quis consectetur est, sit amet sollicitudin urna. Donec malesuada urna quis est mollis facilisis.</item>
+        <item>Vestibulum ullamcorper metus turpis, ultricies scelerisque risus mattis quis. Praesent maximus pulvinar metus eget fringilla. Integer accumsan scelerisque purus. Vivamus eu elementum orci, eget tempor magna. In vel pharetra ipsum. Aenean sit amet ipsum eu nulla pharetra dapibus. Vivamus nunc quam, aliquam sed ipsum in, ultricies iaculis elit. Vestibulum ornare mattis lectus at ultricies. Cras quis consectetur est, sit amet sollicitudin urna. Donec malesuada urna quis est mollis facilisis.</item>
+        <item>Vestibulum ullamcorper metus turpis, ultricies scelerisque risus mattis quis. Praesent maximus pulvinar metus eget fringilla. Integer accumsan scelerisque purus. Vivamus eu elementum orci, eget tempor magna. In vel pharetra ipsum. Aenean sit amet ipsum eu nulla pharetra dapibus. Vivamus nunc quam, aliquam sed ipsum in, ultricies iaculis elit. Vestibulum ornare mattis lectus at ultricies. Cras quis consectetur est, sit amet sollicitudin urna. Donec malesuada urna quis est mollis facilisis.</item>
+        <item>Vestibulum ullamcorper metus turpis, ultricies scelerisque risus mattis quis. Praesent maximus pulvinar metus eget fringilla. Integer accumsan scelerisque purus. Vivamus eu elementum orci, eget tempor magna. In vel pharetra ipsum. Aenean sit amet ipsum eu nulla pharetra dapibus. Vivamus nunc quam, aliquam sed ipsum in, ultricies iaculis elit. Vestibulum ornare mattis lectus at ultricies. Cras quis consectetur est, sit amet sollicitudin urna. Donec malesuada urna quis est mollis facilisis.</item>
+        <item>Vestibulum ullamcorper metus turpis, ultricies scelerisque risus mattis quis. Praesent maximus pulvinar metus eget fringilla. Integer accumsan scelerisque purus. Vivamus eu elementum orci, eget tempor magna. In vel pharetra ipsum. Aenean sit amet ipsum eu nulla pharetra dapibus. Vivamus nunc quam, aliquam sed ipsum in, ultricies iaculis elit. Vestibulum ornare mattis lectus at ultricies. Cras quis consectetur est, sit amet sollicitudin urna. Donec malesuada urna quis est mollis facilisis.</item>
+        <item>Vestibulum ullamcorper metus turpis, ultricies scelerisque risus mattis quis. Praesent maximus pulvinar metus eget fringilla. Integer accumsan scelerisque purus. Vivamus eu elementum orci, eget tempor magna. In vel pharetra ipsum. Aenean sit amet ipsum eu nulla pharetra dapibus. Vivamus nunc quam, aliquam sed ipsum in, ultricies iaculis elit. Vestibulum ornare mattis lectus at ultricies. Cras quis consectetur est, sit amet sollicitudin urna. Donec malesuada urna quis est mollis facilisis.</item>
+        <item>Vestibulum ullamcorper metus turpis, ultricies scelerisque risus mattis quis. Praesent maximus pulvinar metus eget fringilla. Integer accumsan scelerisque purus. Vivamus eu elementum orci, eget tempor magna. In vel pharetra ipsum. Aenean sit amet ipsum eu nulla pharetra dapibus. Vivamus nunc quam, aliquam sed ipsum in, ultricies iaculis elit. Vestibulum ornare mattis lectus at ultricies. Cras quis consectetur est, sit amet sollicitudin urna. Donec malesuada urna quis est mollis facilisis.</item>
+        <item>Vestibulum ullamcorper metus turpis, ultricies scelerisque risus mattis quis. Praesent maximus pulvinar metus eget fringilla. Integer accumsan scelerisque purus. Vivamus eu elementum orci, eget tempor magna. In vel pharetra ipsum. Aenean sit amet ipsum eu nulla pharetra dapibus. Vivamus nunc quam, aliquam sed ipsum in, ultricies iaculis elit. Vestibulum ornare mattis lectus at ultricies. Cras quis consectetur est, sit amet sollicitudin urna. Donec malesuada urna quis est mollis facilisis.</item>
+        <item>Vestibulum ullamcorper metus turpis, ultricies scelerisque risus mattis quis. Praesent maximus pulvinar metus eget fringilla. Integer accumsan scelerisque purus. Vivamus eu elementum orci, eget tempor magna. In vel pharetra ipsum. Aenean sit amet ipsum eu nulla pharetra dapibus. Vivamus nunc quam, aliquam sed ipsum in, ultricies iaculis elit. Vestibulum ornare mattis lectus at ultricies. Cras quis consectetur est, sit amet sollicitudin urna. Donec malesuada urna quis est mollis facilisis.</item>
+        <item>Vestibulum ullamcorper metus turpis, ultricies scelerisque risus mattis quis. Praesent maximus pulvinar metus eget fringilla. Integer accumsan scelerisque purus. Vivamus eu elementum orci, eget tempor magna. In vel pharetra ipsum. Aenean sit amet ipsum eu nulla pharetra dapibus. Vivamus nunc quam, aliquam sed ipsum in, ultricies iaculis elit. Vestibulum ornare mattis lectus at ultricies. Cras quis consectetur est, sit amet sollicitudin urna. Donec malesuada urna quis est mollis facilisis.</item>
+    </string-array>
 </resources>

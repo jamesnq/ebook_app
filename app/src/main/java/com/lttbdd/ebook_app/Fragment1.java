@@ -4,43 +4,46 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import androidx.annotation.NonNull;
-import androidx.fragment.app.ListFragment;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 
-import java.util.ArrayList;
+public class Fragment1 extends Fragment implements AdapterView.OnItemClickListener {
 
-
-public class Fragment1 extends ListFragment {
-
-    ArrayList<Book> item;
-    Adapter adapter;
+    Communicator communicator;
+    ArrayAdapter adapter;
     ListView listView;
-    ConvertName convertname;
 
+    @Nullable
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        convertname = (ConvertName) getActivity();
-        item = new ArrayList<>();
-        item.add(new Book("name 1", "1"));
-        item.add(new Book("name 2", "2"));
-        item.add(new Book("name 3", "3"));
-        item.add(new Book("name 4", "4"));
-        adapter = new Adapter(getActivity(), R.layout.databook, item);
-        setListAdapter(adapter);
-        //listView.setAdapter(adapter);
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_1,container,false);
+        listView = view.findViewById(R.id.list);
+        adapter = ArrayAdapter.createFromResource(getActivity(),R.array.title,android.R.layout.simple_list_item_1);
+        listView.setAdapter(adapter);
 
-        View view = inflater.inflate(R.layout.fragment_1, container, false);
+        listView.setOnItemClickListener(this);
+
         return view;
-
     }
 
+
+    public void setCommunicator(Communicator communicator) {
+        this.communicator = communicator;
+    }
+
+
+
     @Override
-    public void onListItemClick(@NonNull ListView l, @NonNull View v, int position, long id) {
-        super.onListItemClick(l, v, position, id);
-        convertname.DataBook(item.get(position));
+    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+        communicator.respond(position);
+    }
+
+    public interface Communicator{
+        void respond(int i);
     }
 }

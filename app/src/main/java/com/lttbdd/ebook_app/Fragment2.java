@@ -6,26 +6,24 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 public class Fragment2 extends Fragment {
-    TextView tv_id_data;
-    TextView tv_name_data;
-    View view;
+    TextView tvContent;
+    String[] contentList;
 
+    @Nullable
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        view = inflater.inflate(R.layout.fragment_2, container, false);
-        // Inflate the layout for this fragment
-        tv_name_data = (TextView) view.findViewById(R.id.tv_name_data);
-        tv_id_data = (TextView) view.findViewById(R.id.tv_id_data);
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_2, container, false);
+        tvContent = view.findViewById(R.id.tv_content);
+        contentList = getResources().getStringArray(R.array.content);
         return view;
     }
 
-    public void SetData(Book b) {
-        //loi
-        tv_name_data.setText(b.getName());
-        tv_id_data.setText(b.getId());
+    public void setContent(int i) {
+        tvContent.setText(contentList[i]);
     }
 }
