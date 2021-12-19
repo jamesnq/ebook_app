@@ -21,10 +21,10 @@ public class Fragment1 extends Fragment implements AdapterView.OnItemClickListen
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_1,container,false);
+        View view = inflater.inflate(R.layout.fragment_1, container, false);
         listView = view.findViewById(R.id.list);
 
-        adapter = ArrayAdapter.createFromResource(getActivity(),R.array.title,android.R.layout.simple_list_item_1);
+        adapter = ArrayAdapter.createFromResource(getActivity(), R.array.title, android.R.layout.simple_list_item_1);
         listView.setAdapter(adapter);
         listView.setOnItemClickListener(this);
 
@@ -40,7 +40,7 @@ public class Fragment1 extends Fragment implements AdapterView.OnItemClickListen
         communicator.respond(position);
     }
 
-    public interface Communicator{
+    public interface Communicator {
         void respond(int i);
     }
 }

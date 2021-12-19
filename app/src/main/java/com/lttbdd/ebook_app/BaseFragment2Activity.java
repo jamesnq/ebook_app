@@ -7,7 +7,7 @@ import androidx.fragment.app.FragmentManager;
 
 public class BaseFragment2Activity extends AppCompatActivity {
 
-    static final String ITEM_CLICKED_INDEX = "itemClickedIndex";
+    public static final String ITEM_CLICKED_INDEX = "itemClickedIndex";
     Fragment2 fragment2;
     FragmentManager fragmentManager;
 
@@ -16,15 +16,12 @@ public class BaseFragment2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_base_fragment2);
 
-        int indexReceived = getIntent().getIntExtra(ITEM_CLICKED_INDEX,0);
-        if(indexReceived == 0) return;
+        int indexReceived = getIntent().getIntExtra(ITEM_CLICKED_INDEX, 0);
+        if (indexReceived == 0) return;
 
         fragmentManager = getSupportFragmentManager();
         fragment2 = (Fragment2) fragmentManager.findFragmentById(R.id.fragment2);
-        if (fragment2 != null) {
-            fragment2.setContent(indexReceived);
-        }
+        fragment2.setContent(indexReceived);
+
     }
-
-
 }

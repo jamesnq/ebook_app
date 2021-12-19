@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity implements Fragment1.Communi
         isLandscape = fragment2 != null;
     }
 
-
     @Override
     public void respond(int clickedItemIndex) {
         if (isLandscape) {
@@ -35,9 +34,9 @@ public class MainActivity extends AppCompatActivity implements Fragment1.Communi
                 fragment2.setContent(clickedItemIndex);
             }
         } else {
-            Intent baseFragment2Activity = new Intent(this, BaseFragment2Activity.class);
-            baseFragment2Activity.putExtra(BaseFragment2Activity.ITEM_CLICKED_INDEX, clickedItemIndex);
-            startActivity(baseFragment2Activity);
+            Intent baseFragment2ActivityIntent = new Intent(this, BaseFragment2Activity.class);
+            baseFragment2ActivityIntent.putExtra(BaseFragment2Activity.ITEM_CLICKED_INDEX, clickedItemIndex);
+            startActivity(baseFragment2ActivityIntent);
         }
     }
 }

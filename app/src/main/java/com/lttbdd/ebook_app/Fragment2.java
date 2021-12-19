@@ -27,6 +27,5 @@ public class Fragment2 extends Fragment {
 
     public void setContent(int i) {
         tvContent.setText(contentList[i]);
-        Toast.makeText(getContext(), "Data Successfully Changed", Toast.LENGTH_SHORT).show();
     }
 }

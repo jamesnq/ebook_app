@@ -7,7 +7,7 @@
     tools:context=".BaseFragment2Activity">
 
     <fragment
-        android:id="@+id/fragmentbase2"
+        android:id="@+id/fragment2"
         android:name="com.lttbdd.ebook_app.Fragment2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
