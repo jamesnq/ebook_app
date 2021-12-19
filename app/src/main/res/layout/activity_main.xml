@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <fragment
-        android:id="@+id/fragmentContainerView2"
+        android:id="@+id/fragment1"
         android:name="com.lttbdd.ebook_app.Fragment1"
         tools:layout="@layout/fragment_1"
         android:layout_width="match_parent"

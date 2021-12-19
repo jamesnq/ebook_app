@@ -5,12 +5,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 public class Fragment2 extends Fragment {
+
     TextView tvContent;
     String[] contentList;
 
@@ -25,5 +27,6 @@ public class Fragment2 extends Fragment {
 
     public void setContent(int i) {
         tvContent.setText(contentList[i]);
+        Toast.makeText(getContext(), "Data Successfully Changed", Toast.LENGTH_SHORT).show();
     }
 }
