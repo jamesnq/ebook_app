@@ -5,11 +5,15 @@
       <map>
         <entry key="..\:/Users/malco/AndroidStudioProjects/Ebook_App/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/malco/AndroidStudioProjects/Ebook_App/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/malco/AndroidStudioProjects/Ebook_App/app/src/main/res/drawable/mybg.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/malco/AndroidStudioProjects/Ebook_App/app/src/main/res/drawable/toolbar_dropshadow.xml" value="0.14322916666666666" />
         <entry key="..\:/Users/malco/AndroidStudioProjects/Ebook_App/app/src/main/res/layout-land/activity_main.xml" value="0.22613531047265986" />
-        <entry key="..\:/Users/malco/AndroidStudioProjects/Ebook_App/app/src/main/res/layout/activity_base_fragment2.xml" value="0.12760416666666666" />
-        <entry key="..\:/Users/malco/AndroidStudioProjects/Ebook_App/app/src/main/res/layout/activity_main.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/malco/AndroidStudioProjects/Ebook_App/app/src/main/res/layout/activity_base_fragment2.xml" value="0.176" />
+        <entry key="..\:/Users/malco/AndroidStudioProjects/Ebook_App/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/malco/AndroidStudioProjects/Ebook_App/app/src/main/res/layout/book_list.xml" value="0.12708333333333333" />
         <entry key="..\:/Users/malco/AndroidStudioProjects/Ebook_App/app/src/main/res/layout/fragment_1.xml" value="0.12708333333333333" />
-        <entry key="..\:/Users/malco/AndroidStudioProjects/Ebook_App/app/src/main/res/layout/fragment_2.xml" value="0.176" />
+        <entry key="..\:/Users/malco/AndroidStudioProjects/Ebook_App/app/src/main/res/layout/fragment_2.xml" value="0.264" />
+        <entry key="..\:/Users/malco/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_list_item_1.xml" value="0.12708333333333333" />
       </map>
     </option>
   </component>

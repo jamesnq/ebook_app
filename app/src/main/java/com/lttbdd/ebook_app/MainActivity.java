@@ -2,6 +2,7 @@ package com.lttbdd.ebook_app;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
@@ -12,11 +13,15 @@ public class MainActivity extends AppCompatActivity implements Fragment1.Communi
     Fragment2 fragment2;
     FragmentManager fragmentManager;
     boolean isLandscape;
+    TextView toolbar1Title;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        toolbar1Title = findViewById(R.id.toolbar1_title);
+        toolbar1Title.setText("Home");
 
         fragmentManager = getSupportFragmentManager();
         fragment1 = (Fragment1) fragmentManager.findFragmentById(R.id.fragment1);
