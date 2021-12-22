@@ -3,22 +3,50 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="horizontal">
+    android:orientation="vertical">
 
-    <fragment
-        android:id="@+id/fragment1"
-        android:name="com.lttbdd.ebook_app.Fragment1"
-        tools:layout="@layout/fragment_1"
-        android:layout_width="0dp"
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/activity1toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="4dp"
+        android:background="@color/appBarColor"
+        android:textAlignment="center">
+
+        <TextView
+            android:id="@+id/toolbar1_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1" />
+        android:orientation="horizontal">
 
-    <fragment
-        android:id="@+id/fragment2"
-        android:name="com.lttbdd.ebook_app.Fragment2"
-        tools:layout="@layout/fragment_2"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1" />
+        <fragment
+            android:id="@+id/fragment1"
+            android:name="com.lttbdd.ebook_app.Fragment1"
+            tools:layout="@layout/fragment_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/fragment2"
+            android:name="com.lttbdd.ebook_app.Fragment2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:layout="@layout/fragment_2" />
+
+    </LinearLayout>
+
 
 </LinearLayout>

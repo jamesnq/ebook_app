@@ -4,12 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BaseFragment2Activity">
+    android:orientation="vertical"
+    tools:context=".BaseFragment2Activity"
+    android:theme="@style/ToolbarTheme"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/activity2_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="4dp"
+        android:background="@color/appBarColor"
+        android:textAlignment="center">
+
+        <TextView
+            android:id="@+id/toolbar2_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=""
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            />
+
+    </androidx.appcompat.widget.Toolbar>
 
     <fragment
         android:id="@+id/fragment2"
         android:name="com.lttbdd.ebook_app.Fragment2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout="@layout/fragment_2" />
+        tools:layout="@layout/fragment_2"/>
 </LinearLayout>

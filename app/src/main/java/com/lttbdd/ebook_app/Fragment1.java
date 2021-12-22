@@ -1,12 +1,18 @@
 package com.lttbdd.ebook_app;
 
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
+import android.graphics.drawable.TransitionDrawable;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -24,7 +30,8 @@ public class Fragment1 extends Fragment implements AdapterView.OnItemClickListen
         View view = inflater.inflate(R.layout.fragment_1, container, false);
         listView = view.findViewById(R.id.list);
 
-        adapter = ArrayAdapter.createFromResource(getActivity(), R.array.title, android.R.layout.simple_list_item_1);
+        adapter = ArrayAdapter.createFromResource(getActivity(), R.array.title, R.layout.book_list);
+
         listView.setAdapter(adapter);
         listView.setOnItemClickListener(this);
 
@@ -38,6 +45,9 @@ public class Fragment1 extends Fragment implements AdapterView.OnItemClickListen
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         communicator.respond(position);
+
+        Animation hyperspaceJumpAnimation = AnimationUtils.loadAnimation(getActivity(), R.anim.list_view_anim);
+        view.startAnimation(hyperspaceJumpAnimation);
     }
 
     public interface Communicator {
