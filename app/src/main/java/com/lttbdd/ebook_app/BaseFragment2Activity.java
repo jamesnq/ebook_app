@@ -47,5 +47,4 @@ public class BaseFragment2Activity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-
 }

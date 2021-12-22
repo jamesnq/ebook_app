@@ -38,8 +38,6 @@ public class Fragment1 extends Fragment implements AdapterView.OnItemClickListen
         return view;
     }
 
-
-
     public void setCommunicator(Communicator communicator) {
         this.communicator = communicator;
     }
