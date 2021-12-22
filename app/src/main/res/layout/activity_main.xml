@@ -6,10 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
-    <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragmentContainerView2"
+    <fragment
+        android:id="@+id/fragment1"
         android:name="com.lttbdd.ebook_app.Fragment1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        tools:layout="@layout/fragment_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </FrameLayout>

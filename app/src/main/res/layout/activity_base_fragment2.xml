@@ -2,16 +2,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/TODO"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BaseFragment2">
+    tools:context=".BaseFragment2Activity">
 
     <fragment
-        android:id="@+id/fragmentbase2"
+        android:id="@+id/fragment2"
         android:name="com.lttbdd.ebook_app.Fragment2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="138dp"
-        tools:layout_editor_absoluteY="64dp" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_2" />
 </LinearLayout>

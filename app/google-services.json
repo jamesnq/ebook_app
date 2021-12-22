@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "927301003013",
+    "project_id": "login-f9bc4",
+    "storage_bucket": "login-f9bc4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927301003013:android:ba8768c7e17b1e6bb4796c",
+        "android_client_info": {
+          "package_name": "com.lttbdd.ebook_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927301003013-5bqpml3jov7gjomtok6opdaij05m0fo3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuYTw8ts-hO8IueHEKmSSSqajmMkkXfOo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927301003013-5bqpml3jov7gjomtok6opdaij05m0fo3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

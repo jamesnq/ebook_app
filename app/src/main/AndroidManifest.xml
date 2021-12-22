@@ -9,11 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Ebook_App">
-        <activity
-            android:name=".BaseFragment2"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+        <activity android:name=".MainActivity"></activity>
+
+        <activity android:name=".RegisterActivity"/>
+
+        <activity android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +21,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".BaseFragment2Activity" />
+
     </application>
 
 </manifest>
