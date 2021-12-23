@@ -32,11 +32,9 @@ public class Fragment2 extends Fragment {
             R.drawable.motdoinhuketimduong,
             R.drawable.hoccachhoc,
             R.drawable.tonybuoisang,
-            R.drawable.tuoi20toidasongnhumotbonghoadai,
             R.drawable.neutoibietduockhicon20,
             R.drawable.camnangchonnghe,
             R.drawable.nhagiakim,
-            R.drawable.dammolondunghoaiphituoitre,
             R.drawable.doithaydoikhichungtathaydoi,
     };
 
@@ -45,10 +43,8 @@ public class Fragment2 extends Fragment {
             R.drawable.hoccachhoc_bg,
             R.drawable.tonybuoisang_bg,
             R.drawable.tuoi20toidasongnhumotbonghoadai_bg,
-            R.drawable.neutoibietduockhicon20_bg,
             R.drawable.camnangchonnghe_bg,
             R.drawable.nhagiakim_bg,
-            R.drawable.dammolondunghoaiphituoitre_bg,
             R.drawable.doithaydoikhichungtathaydoi_bg,
     };
 

@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:elevation="4dp"
-        android:background="@color/appBarColor"
+        android:background="@color/purple_700"
         android:textAlignment="center">
 
         <TextView

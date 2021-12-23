@@ -1,16 +1,23 @@
 <resources>
     <string name="app_name">Ebook_App</string>
     <string name="buttonName">buttonName</string>
+    <string name="buttonLogin">Login</string>
+    <string name="buttonRegister">Register</string>
+    <string name="edtUsernameHint">Email</string>'
+    <string name="edtPasswordHint">Password</string>
+    <string name="bookName">Book Name</string>
+    <string name="contentDescription">bookBanner</string>
+    <string name="bookAuthor">Author</string>
+    <string name="bookDescription">Description</string>
+
 
     <string-array name="title">
         <item>MỘT ĐỜI NHƯ KẺ TÌM ĐƯỜNG</item>
         <item>HỌC CÁCH HỌC</item>
         <item>TONY BUỔI SÁNG - TRÊN ĐƯỜNG BĂNG (TÁI BẢN 2017)</item>
         <item>TUỔI 20 TÔI ĐÃ SỐNG NHƯ MỘT BÔNG HOA DẠI</item>
-        <item>NẾU TÔI BIẾT ĐƯỢC KHI CÒN 20</item>
         <item>CẨM NANG CHỌN NGHỀ</item>
         <item>NHÀ GIẢ KIM ( PAULO COELHO) TÁI BẢN 2017</item>
-        <item>DÁM MƠ LỚN, ĐỪNG HOÀI PHÍ TUỔI TRẺ</item>
         <item>ĐỜI THAY ĐỔI KHI CHÚNG TA THAY ĐỔI</item>
     </string-array>
 
@@ -37,10 +44,7 @@ Cách đơn giản nhưng đầy hiệu quả để đập tan sự trì hoãn, 
         <item>Ở cuốn sách này, chắc chắn bạn sẽ bắt gặp được hình ảnh của bản thân mình ở đâu đó. Bạn đã biết chính xác đam mê của mình là gì chưa? bạn có dám theo đuổi ước mơ của mình không? Bạn đang không chắc chắn những điều mình đang chọn là đúng hay sai, nhưng thật ra trên đời này làm gì có ai biết trước điều gì là đúng sai cho mình.
 
 Cuốn sách hay nên đọc trước tuổi 20 rất bổ ích này được viết bởi một cô gái ở độ tuổi đôi mươi đang nói hộ chúng ta nhiều điều. Tuổi 20, bạn bạn đang bị ám ảnh bởi những câu chuyện "con nhà người ta" con nhà người ta mới 20 tuổi đã thành công, con nhà người ta mới 20 tuổi đã cho bố mẹ được nhờ, một tháng lương của con nhà người ta thật đáng mơ ước... Nhưng bạn đừng vội “Chúng ta cứ đi từ từ, cứ học về cuộc sống, cũng không có nghĩa là chúng ta đã bỏ lỡ một phần đời không theo đuổi ước mơ.” </item>
-        <item>Nếu bạn có 5 đô la và 2 giờ đồng hồ để kinh doanh. Bạn sẽ làm gì? - Đây là một trong những ví dụ minh hoạ được nhắc đến trong cuốn sách . Trả lời cho câu hỏi này có rất nhiều cách và với mỗi cách, tác giả lại chỉ ra những bài học nhỏ thôi nhưng hữu ích.,
-
-Đây là cuốn sách bạn nên đọc trước tuổi 20, sách có ngôn từ đơn giản, dễ hiểu nhưng truyền tải được thông điệp rất sâu sắc. Nội dung cuốn sách vô cùng thú vị là những chia sẻ của tác giả về những bài học trong cuộc sống, trong phòng học lẫn trong phòng họp, về những con người sẵn sàng phấn đấu để vượt xa các tiêu chuẩn ở mức “vừa đủ”, thách thức các giả định hay quan điểm đã thành lối mòn, hướng bạn đến con đường theo đuổi thành công.</item>
-        <item>Xã hội chúng ta ngày nay có quá nhiều những biến động, việc làm thì không thiếu nhưng việc phù hợp thì lại khó tìm. Có những điều các bạn đam mê nhưng nó chỉ dừng lại là đam mê thôi, không phải là thế mạnh của bản thân thì cũng không thể duy trì công việc lâu dài được. Ngược lại, có những điều bạn không thích thú lắm nhưng bạn lại làm rất tốt công việc đó và nó khiến bạn nổi bật hơn tất cả những đồng nghiệp.
+       <item>Xã hội chúng ta ngày nay có quá nhiều những biến động, việc làm thì không thiếu nhưng việc phù hợp thì lại khó tìm. Có những điều các bạn đam mê nhưng nó chỉ dừng lại là đam mê thôi, không phải là thế mạnh của bản thân thì cũng không thể duy trì công việc lâu dài được. Ngược lại, có những điều bạn không thích thú lắm nhưng bạn lại làm rất tốt công việc đó và nó khiến bạn nổi bật hơn tất cả những đồng nghiệp.
 
 Trong cuốn sách hay nên đọc này sẽ chỉ cho chúng ta cách áp dụng 7 bước được Jeff Goins gợi ý, dựa vào đó các bạn có thể khám phá được bản thân mình thật sự có điểm mạnh, điểm yếu gì từ đó tìm kiếm một công việc phù hợp. Nhất là những bạn sinh viên mới ra trường, khi chúng ta đang hoang mang và nghi ngờ về chình khả năng của bản thân mình. Hãy đọc cuốn sách này để có thể lựa chọn cho mình con đường sự nghiệp đúng đắn. </item>
         <item>Nhà giả kim là một trong những tác phẩm hay nhất của nhà văn Paulo Coelho, được mệnh danh là cuốn sách bán chạy chỉ sau kinh thánh. Tuy nhiên cũng không thể tránh khỏi những ý kiến trái chiều. Cứ 3 người khen cuốn sách này hay thì lại có 2 người không thừa nhận điều đó. Đây là cuốn sách viết về chuyến phiêu lưu của cậu bé chăn cừu trên chặng đường chinh phục ước mơ. Biến những giấc mơ thành sự thật.
@@ -52,9 +56,6 @@ Tuổi 20, thứ ta có trong tay đó chính là sức khỏe và tuổi trẻ.
         <item>Đây là cuốn sách truyền cảm hứng cho những bạn trẻ, nó đưa ra những thông điệp hay trong cuộc sống khiến bạn nhận ra nhiều điều trước đây mình từng ngộ nhận. " thứ chênh lệch ít nhất giữa người với người là chỉ số thông minh,chênh lệch lớn nhất là lòng kiên trì". Bạn sẽ bắt gặp đâu đó những hình ảnh khốn khó của thời sinh viên mình đã từng trải qua, thức khuya ôn bài, đi làm thêm không biết ngày đêm... Bạn sẽ khó dứt ra khi đọc những trang đầu tiên. Đây là cuốn sách hay nên đọc trước tuổi 20 mà bạn trẻ không thể bỏ lỡ.
 
 "Nếu có thể, hãy đi xem concert bạn muốn xem một lần, đến nghe trực tiếp những thanh âm đã đồng hành cùng bạn trong tai nghe. Khi bạn đến đó, bạn sẽ phát hiện trước mắt mình, ngoài những người đứng trên sân khấu kia, còn có bạn của ngày xưa ấy. Vì đã từng cô đơn, vui vẻ hay buồn đau, còn cả những tâm trạng không diễn tả được. Có thể người đó sẽ không bao giờ biết bạn là ai, nhưng chỉ cần bạn biết, những bài hát ấy đã cùng bạn vượt qua những tháng ngày khó khăn là được rồi."</item>
-        <item>Đã bao giờ bạn cảm thấy căm ghét và bực mình với bản thân mình vì kỹ năng giao tiếp kém đã cản trở bạn rất nhiều trong các mối quan hệ, học tập hay thậm cho là cả sự nghiệp. Đắc nhân tâm khiến cho kỹ năng giao tiếp trở thành nghệ thuật, sự khôn khéo trở nên đời thường. Đắc nhân tâm là sách kĩ năng nhưng cũng gắn liền với những quy tắc đạo đức được Dale đúc rút ra từ sự chân thành trong cách đối nhân xử thế, để biết làm điều hợp lòng người và quan tâm đến cảm xúc của người khác.
-
-Nếu bạn muốn trở thành người tinh tế với cảm xúc của người khác, tránh được những hiểu lầm không đáng có trong giao tiếp cũng như là có thể ứng phó với mọi tình huống trong giao tiếp. Bạn muốn trở thành một người bạn được mọi người yêu quý, một vị sếp tâm lí, một người lãnh đạo hiểu thấu lòng người hoặc một nhà ngoại giao tài ba thì cuốn sách này sẽ chỉ cho bạn biết cả chi tiết và cụ thể cách để gây thiện cảm, cách để dẫn dắt người khác làm theo ý mình, cách dẫn đạo người</item>
         <item>Cuốn sách Đời thay đổi khi chúng ta thay đổi được ra mắt với mong muốn đánh thức tiềm năng tiềm ẩn của mỗi con người chúng ta.
 
 Không chỉ trang bị cho ta những kiến thức cần thiết để hỗ trợ giải quyết các tình huống khó khăn, Đời thay đổi khi chúng ta thay đổi giúp ta hiểu rõ hơn về con người mình, khám phá ra những khả năng tiềm ẩn của bản thân.

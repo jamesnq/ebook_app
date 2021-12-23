@@ -5,7 +5,7 @@
     android:layout_height="?attr/listPreferredItemHeight"
     android:textSize="15sp"
     android:gravity="center_vertical"
-    android:textColor="@color/white"
+    android:textColor="@color/black"
     android:paddingLeft="8dp">
 
 </TextView>

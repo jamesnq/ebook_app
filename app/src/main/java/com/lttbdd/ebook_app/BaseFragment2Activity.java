@@ -34,7 +34,6 @@ public class BaseFragment2Activity extends AppCompatActivity {
         fragmentManager = getSupportFragmentManager();
         fragment2 = (Fragment2) fragmentManager.findFragmentById(R.id.fragment2);
         fragment2.setContent(indexReceived);
-
     }
 
     @Override
