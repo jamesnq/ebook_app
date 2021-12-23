@@ -25,13 +25,13 @@
             app:boxStrokeColor="@color/purple_700"
             app:hintTextColor="@color/hintTextColor"
             app:startIconDrawable="@drawable/ic_mail_outline"
-            app:startIconTint="@color/white">
+            app:startIconTint="@color/purple_200">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/username"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/white" />
+                android:textColor="@color/black" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -43,9 +43,9 @@
             app:boxStrokeColor="@color/purple_700"
             app:hintTextColor="@color/hintTextColor"
             app:passwordToggleEnabled="true"
-            app:passwordToggleTint="@color/white"
+            app:passwordToggleTint="@color/purple_200"
             app:startIconDrawable="@android:drawable/ic_lock_idle_lock"
-            app:startIconTint="@color/white">
+            app:startIconTint="@color/purple_200">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/password"
@@ -54,7 +54,7 @@
                 android:autofillHints="password"
                 android:hint="@string/edtPasswordHint"
                 android:inputType="textPassword"
-                android:textColor="@color/white" />
+                android:textColor="@color/black" />
 
         </com.google.android.material.textfield.TextInputLayout>
     </LinearLayout>
